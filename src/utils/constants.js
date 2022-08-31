@@ -1559,7 +1559,7 @@ export const TokenList = [
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png",
   },
   {
-    name: "BabyDoge",
+    name: "ZILLA",
     address: "0xc748673057861a797275cd8a068abb95a902e8de",
     decimals: 9,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/10407.png",

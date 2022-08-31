@@ -314,7 +314,7 @@ const Dashboard = () => {
       <div className="logo">
         <Link to="/">
           <img src={logo} alt="logo" width={53} />
-          <p className="title">DOGEDEALER</p>
+          <p className="title">GokuZilla</p>
         </Link>
       </div>
       <div>
@@ -542,7 +542,7 @@ const Dashboard = () => {
   const renderRefferalUrl = (
     <div className="referral_url">
       <p className="text_regular_16_w600" style={{ fontWeight: "normal" }}>
-        Refer and earn commission on DOGE or any other coin of your choice
+        Refer and earn commission on Zilla or any other coin of your choice
       </p>
       <div>
         <p className="text_accent_primary_10" style={{ fontSize: 12 }}>
@@ -762,7 +762,7 @@ const Dashboard = () => {
       <Modal
         variant="acceptReferrer"
         title="Accept the referral"
-        description="Accepting this referral and pay 5% LESS tax on your $DogeDealer purchase!"
+        description="Accepting this referral and pay 5% LESS tax on your $GokuZilla purchase!"
         buttonText="ACCEPT NOW"
         referrerAddress={referrerAddress}
         setReferrerAddress={setReferrerAddress}
@@ -814,7 +814,7 @@ const Dashboard = () => {
       />
       <UserModal
         title="Refer & Earn"
-        description="refer and earn commision on DOGE or any coin of choice"
+        description="refer and earn commision on GokuZilla or any coin of choice"
         content={renderReferAndEarn}
         isModal={inviteLink}
         setIsModal={setInviteLink}

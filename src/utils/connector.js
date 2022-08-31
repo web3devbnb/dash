@@ -6,7 +6,7 @@ export const injected = new InjectedConnector({
 });
 
 export const walletconnect = new WalletConnectConnector({
-  rpc: { 56: "https://bsc-dataseed1.binance.org/s" },
+  rpc: { 56: "https://bsc-dataseed1.binance.org/" },
   qrcode: true,
   pollingInterval: 12000,
 });

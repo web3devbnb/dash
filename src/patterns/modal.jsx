@@ -239,7 +239,7 @@ const Modal = ({
     <div className="backdrop">
       <div className="initial_load_modal">
         <img src={logo} alt="logo" width={200} />
-        <p>D O G E D E A L E R</p>
+        <p>G O K U Z I L L A</p>
         <img
           src={initialload}
           alt="loader"

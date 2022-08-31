@@ -98,7 +98,7 @@ const Referrals = ({ referralData, TotalReferrals }) => {
       {inviteLink && (
         <UserModal
           title="Refer & Earn"
-          description="refer and earn commision on DOGE or any coin of choice"
+          description="refer and earn commision on GokuZilla or any coin of choice"
           content={renderReferAndEarn}
           setIsModal={setInviteLink}
         />

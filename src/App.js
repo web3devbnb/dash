@@ -19,7 +19,7 @@ const App = () => {
     console.log(context);
     console.log(chainId);
     if (active) {
-      if (chainId !== 97) {
+      if (chainId !== 56) {
         console.error("Wrong ChainID");
         setIsWrongNetwork(true);
       } else {
