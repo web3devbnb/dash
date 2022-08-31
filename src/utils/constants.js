@@ -637,7 +637,7 @@ export const abi = [
     name: "dividendTracker",
     outputs: [
       {
-        internalType: "contract DogeDealerDividendTracker",
+        internalType: "contract GokuZillaDividendTracker",
         name: "",
         type: "address",
       },

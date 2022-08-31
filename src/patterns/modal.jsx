@@ -170,7 +170,7 @@ const Modal = ({
               style={{ cursor: "pointer" }}
               onClick={() => {
                 window.open(
-                  "https://dessertswap.finance/audits/DogeDealer%20BEP-20%20Audit%2010098859.pdf"
+                  "https://dessertswap.finance/audits/GokuZilla%20BEP-20%20Audit%2010098859.pdf"
                 );
               }}
             >
