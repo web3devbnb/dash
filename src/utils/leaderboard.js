@@ -6,7 +6,7 @@ const web3 = new Web3(
   )
 );
 
-const address = "0x76685e1b08968539b813BCac96AB3a1bd81D311B127e3d87f2305213bc7404e46c5a5549e8f9b74f";
+const address = "0x127e3d87f2305213bc7404e46c5a5549e8f9b74f";
 
 const abi = [
   { inputs: [], stateMutability: "nonpayable", type: "constructor" },

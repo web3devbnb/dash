@@ -1519,60 +1519,60 @@ export const abi = [
   { stateMutability: "payable", type: "receive" },
 ];
 
-export const address = "0x76685e1b08968539b813BCac96AB3a1bd81D311B76685e1b08968539b813BCac96AB3a1bd81D311B";
+export const address = "0x8EeE3052ACfAA775006557B0C838889f1DFaD835";
 
 export const TokenList = [
   {
     name: "BNB",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311B0000000000000000000000000000000000000000",
+    address: "0x0000000000000000000000000000000000000000",
     decimals: 18,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png",
   },
   {
     name: "Dogecoin",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311Bba2ae424d960c26247dd6c32edc70b295c744c43",
+    address: "0xba2ae424d960c26247dd6c32edc70b295c744c43",
     decimals: 8,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/74.png",
   },
   {
     name: "BUSD",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311Be9e7cea3dedca5984780bafc599bd69add087d56",
+    address: "0xe9e7cea3dedca5984780bafc599bd69add087d56",
     decimals: 18,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png",
   },
   {
     name: "Ethereum",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311B2170ed0880ac9a755fd29b2688956bd959f933f8",
+    address: "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
     decimals: 18,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png",
   },
   {
     name: "Ripple",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311B1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
+    address: "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
     decimals: 18,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/52.png",
   },
   {
     name: "Cardano",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311B3ee2200efb3400fabb9aacf31297cbdd1d435d47",
+    address: "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
     decimals: 18,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png",
   },
   {
     name: "ZILLA",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311Bc748673057861a797275cd8a068abb95a902e8de",
+    address: "0xc748673057861a797275cd8a068abb95a902e8de",
     decimals: 9,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/10407.png",
   },
   {
-    name: "GOKUZILLA",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311B76685e1b08968539b813BCac96AB3a1bd81D311B",
+    name: "MoonRise",
+    address: "0x7Ee7F14427cC41D6dB17829eb57Dc74A26796b9D",
     decimals: 9,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/10681.png",
   },
   {
     name: "Cake",
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311B0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+    address: "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
     decimals: 18,
     logo: "https://s2.coinmarketcap.com/static/img/coins/64x64/7186.png",
   },

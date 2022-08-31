@@ -89,20 +89,20 @@ const Dashboard = () => {
   const [position, setPosition] = useState();
   const [buy, setBuy] = useState(0);
   const [selectedToken, setSelectedToken] = useState(
-    "0x76685e1b08968539b813BCac96AB3a1bd81D311Bbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+    "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
   );
   const [payoutToken, setPayoutToken] = useState("BNB");
   const [decimals, setDecimals] = useState();
   const [nativeDecimals, setNativeDecimals] = useState();
   const [payoutTokenAddress, setPayoutTokenAddress] = useState(
-    "0x76685e1b08968539b813BCac96AB3a1bd81D311B0000000000000000000000000000000000000000"
+    "0x0000000000000000000000000000000000000000"
   );
 
   const { active, library, account } = useWeb3React();
   const web3 = new Web3(library);
   const contract = new web3.eth.Contract(abi, address);
   const bnb = {
-    address: "0x76685e1b08968539b813BCac96AB3a1bd81D311Bbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+    address: "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
     decimal: 18,
   };
 
@@ -123,7 +123,7 @@ const Dashboard = () => {
     let decimal;
     let name;
 
-    if (userTokenAddress !== "0x76685e1b08968539b813BCac96AB3a1bd81D311B0000000000000000000000000000000000000000") {
+    if (userTokenAddress !== "0x0000000000000000000000000000000000000000") {
       Token = new web3.eth.Contract(abi, userTokenAddress);
       decimal = await Token.methods.decimals().call();
       name = await Token.methods.name().call();
@@ -192,7 +192,7 @@ const Dashboard = () => {
       setNativeDecimals(user.nativeDecimal);
     } else {
       setPayoutToken("BNB");
-      setPayoutTokenAddress("0x76685e1b08968539b813BCac96AB3a1bd81D311B0000000000000000000000000000000000000000");
+      setPayoutTokenAddress("0x0000000000000000000000000000000000000000");
     }
     setReferalEarnings(await getReferalEarnings());
     setTotalReferrals(await getReferalCount());
@@ -246,7 +246,7 @@ const Dashboard = () => {
     const contract = new new Web3(library).eth.Contract(abi, address);
     const data = await contract.methods.getReferrer().call();
     console.log(data);
-    if (data === "0x76685e1b08968539b813BCac96AB3a1bd81D311B0000000000000000000000000000000000000000") {
+    if (data === "0x0000000000000000000000000000000000000000") {
       setReferrerAddress(val);
       console.log("entered");
     } else {
