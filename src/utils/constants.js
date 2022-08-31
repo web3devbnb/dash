@@ -1519,7 +1519,7 @@ export const abi = [
   { stateMutability: "payable", type: "receive" },
 ];
 
-export const address = "0xf8cdb0A8DeF55443f5abB385321Ca705EC9D0eEd";
+export const address = "0xCB2aF116c4CA0c51371902ef9CE4C940C2b6B584";
 
 export const TokenList = [
   {
