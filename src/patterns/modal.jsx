@@ -57,7 +57,7 @@ const Modal = ({
     setIsLoading(true);
     setIsError();
     console.log(referrerAddress);
-    //if referer = '0x0000000000000000000000000000000000000000' proceed else cant add referer
+    //if referer = '0x76685e1b08968539b813BCac96AB3a1bd81D311B0000000000000000000000000000000000000000' proceed else cant add referer
     try {
       await new new Web3(library).eth.Contract(abi, address).methods
         .setReferrer(("ing", referrerAddress))
